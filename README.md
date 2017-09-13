@@ -193,9 +193,7 @@ class DelphiForm():
     def __init__(self):
         self.pydll = windll.LoadLibrary("PyDLLTest.dll")
         self.p     = ParaData(WFUNC(self.OnCallBack), "파이썬 설정 : Callback" )
-        self.list          = ("com.ktpns.agenttester", "com.ktpns.libtester", "com.ktpns.pa") 
-        self.activitylist  = ("com.ktpns.agenttester.AgentTestMain", "com.ktpns.libtester.PnsTestMain", "com.ktpns.pa.MainActivity") 
-
+        
     def OnCallBack(self, n, pData):
         if n == 1:
             self.d = Display()
