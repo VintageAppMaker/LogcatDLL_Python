@@ -86,7 +86,7 @@ end.
 ~~~
 
 
-python은 한글파일이 cp949 인코딩이다.
+python은 한글파일이 **반드시 cp949 인코딩** 이어어야 한다. 파일의 인코딩까지도...
 
 ~~~python
 # -*- coding: cp949 -*-
@@ -248,3 +248,7 @@ def main():
 if __name__ == '__main__':
     main()
 ~~~
+
+### 실행
+
+~[](/data/logcat_gui.gif)
