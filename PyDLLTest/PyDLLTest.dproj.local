@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2010/05/24 11:41:12.320.dproj,C:\Users\snake\Documents\RAD Studio\Projects\Project2.dproj=C:\잠시모아놓고 옮기는것들\PyDLLTest\PyDLLTest.dproj</Transaction>
+    <Transaction>2010-05-24 13:01:38.702.pas,C:\잠시모아놓고 옮기는것들\PyDLLTest\Unit1.pas=C:\잠시모아놓고 옮기는것들\PyDLLTest\UiTest.pas</Transaction>
+    <Transaction>2010-05-24 13:01:38.702.dfm,C:\잠시모아놓고 옮기는것들\PyDLLTest\Unit1.dfm=C:\잠시모아놓고 옮기는것들\PyDLLTest\UiTest.dfm</Transaction>
+  </Transactions>
+</BorlandProject>
