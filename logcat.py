@@ -1,7 +1,7 @@
-# -*- coding: utf-8 -*-
+# -*- coding: cp949 -*-
 #-------------------------------------------------------------------------------
 # Name:        logcat 
-# Purpose:     android logcat ì •ë¦¬ 
+# Purpose:     android logcat Á¤¸® 
 #
 # Author:      snake
 #
@@ -24,13 +24,13 @@ from ctypes import byref
 from threading import Thread
 import time
 #---------------------------------------------------------
-# callback Function(CFUNCë¡œ í•˜ì§€ ë§ì•„ë¼..!!!)
+# callback Function(CFUNC·Î ÇÏÁö ¸»¾Æ¶ó..!!!)
 WFUNC = WINFUNCTYPE(c_int, c_int, c_wchar_p)
 #---------------------------------------------------------
 
 tags = ["AlarmManager"]
 
-# ë¹„ìŠ¤íƒ€ ë²„ì „ ì´ìƒê³¼ Delphi 2010ì—ì„  wcharë¥¼ ê¸°ë³¸ìœ¼ë¡œ ì‚¬ìš©í•œë‹¤.
+# ºñ½ºÅ¸ ¹öÀü ÀÌ»ó°ú Delphi 2010¿¡¼± wchar¸¦ ±âº»À¸·Î »ç¿ëÇÑ´Ù.
 class ParaData(Structure):
     _fields_ = [
     ("func", WFUNC),
@@ -70,11 +70,11 @@ class Display(Thread):
             pass
 
         
-        # ë¡œê·¸ clear
+        # ·Î±× clear
         input = os.popen("adb logcat -c")
         input = os.popen("adb logcat")
         
-        self.p2("log captureë¥¼ ì‹œì‘í–ˆìŠµë‹ˆë‹¤")
+        self.p2("log capture¸¦ ½ÃÀÛÇß½À´Ï´Ù")
         while self.b:
             try:
                 line = input.readline()
@@ -88,22 +88,22 @@ class Display(Thread):
             self.WriteLog(line [:-2])
             self.p( line [:-2]  , c_int(1) )
         
-            # ì…ë ¥ ì¢…ë£Œ 
+            # ÀÔ·Â Á¾·á 
             if len(line) == 0: break
         
         self.p3()
 
         print """
 
-        Programì´ ì¢…ë£Œë˜ì—ˆìŠµë‹ˆë‹¤.
+        ProgramÀÌ Á¾·áµÇ¾ú½À´Ï´Ù.
 
         """
 
-# Delphi í¼ê³¼ ì—°ê²°ëœ í´ë˜ìŠ¤
+# Delphi Æû°ú ¿¬°áµÈ Å¬·¡½º
 class DelphiForm():
     def __init__(self):
         self.pydll = windll.LoadLibrary("PyDLLTest.dll")
-        self.p     = ParaData(WFUNC(self.OnCallBack), "íŒŒì´ì¬ ì„¤ì • : Callback" )
+        self.p     = ParaData(WFUNC(self.OnCallBack), "ÆÄÀÌ½ã ¼³Á¤ : Callback" )
         
     def OnCallBack(self, n, pData):
         if n == 1:
@@ -151,7 +151,7 @@ class DelphiForm():
         strTime = "%d-%d-%d_%02d_%02d_%02d.txt" % (now.tm_year, now.tm_mon, now.tm_mday, now.tm_hour, now.tm_min, now.tm_sec)
         os.system('copy history %s' % strTime) 
         if os.path.exists(strTime):
-            self.SetMessage("%së¡œ ì €ì¥ë˜ì—ˆìŠµë‹ˆë‹¤" % strTime)
+            self.SetMessage("%s·Î ÀúÀåµÇ¾ú½À´Ï´Ù" % strTime)
 def main():
     f = DelphiForm()
     f.DoEvent()

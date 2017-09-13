@@ -1,0 +1,353 @@
+09-13 16:16:30.473 26871 26871 D SMUSIC-SV: mSystemReceiver - batteryLevel: 62 batteryStatus: 2
+09-13 16:16:31.583  3928  8626 W System.err: java.io.FileNotFoundException: /proc/sys/net/mptcp/mptcp_enabled: open failed: ENOENT (No such file or directory)
+09-13 16:16:31.583  3928  8626 W System.err: 	at libcore.io.IoBridge.open(IoBridge.java:452)
+09-13 16:16:31.583  3928  8626 W System.err: 	at java.io.FileInputStream.<init>(FileInputStream.java:76)
+09-13 16:16:31.583  3928  8626 W System.err: 	at java.io.FileReader.<init>(FileReader.java:42)
+09-13 16:16:31.583  3928  8626 W System.err: 	at android.net.TrafficStats.getMptcpState(TrafficStats.java:613)
+09-13 16:16:31.583  3928  8626 W System.err: 	at android.net.TrafficStats.getTotalRxBytes(TrafficStats.java:644)
+09-13 16:16:31.583  3928  8626 W System.err: 	at i.q.l(Unknown Source)
+09-13 16:16:31.583  3928  8626 W System.err: 	at i.q.a(Unknown Source)
+09-13 16:16:31.583  3928  8626 W System.err: 	at i.q.bq(Unknown Source)
+09-13 16:16:31.583  3928  8626 W System.err: 	at i.n.bi(Unknown Source)
+09-13 16:16:31.583  3928  8626 W System.err: 	at i.n.bj(Unknown Source)
+09-13 16:16:31.583  3928  8626 W System.err: 	at com.android.server.ssrm.S.a(Unknown Source)
+09-13 16:16:31.583  3928  8626 W System.err: 	at com.android.server.ssrm.S.ab(Unknown Source)
+09-13 16:16:31.583  3928  8626 W System.err: 	at com.android.server.ssrm.S.a(Unknown Source)
+09-13 16:16:31.583  3928  8626 W System.err: 	at com.android.server.ssrm.T.handleMessage(Unknown Source)
+09-13 16:16:31.583  3928  8626 W System.err: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+09-13 16:16:31.583  3928  8626 W System.err: 	at android.os.Looper.loop(Looper.java:158)
+09-13 16:16:31.583  3928  8626 W System.err: 	at android.os.HandlerThread.run(HandlerThread.java:61)
+09-13 16:16:31.583  3928  8626 W System.err: Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+09-13 16:16:31.583  3928  8626 W System.err: 	at libcore.io.Posix.open(Native Method)
+09-13 16:16:31.583  3928  8626 W System.err: 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:186)
+09-13 16:16:31.583  3928  8626 W System.err: 	at libcore.io.IoBridge.open(IoBridge.java:438)
+09-13 16:16:31.583  3928  8626 W System.err: 	... 16 more
+09-13 16:16:31.623 16519 16519 D PhoneStatusBar: setSystemUiVisibility vis=8600 mask=ffffffff oldVal=40008f00 newVal=8600 diff=40000900
+09-13 16:16:32.843 16242 16242 W System.err: remove failed: ENOENT (No such file or directory) : /data/user/0/com.facebook.katana/app_libs
+09-13 16:16:32.918  3928  5356 D SensorService: SensorEventConnection::SocketBufferSize, SystemSocketBufferSize - 102400, 2097152
+09-13 16:16:32.928  3928  5379 D SensorService: SensorEventConnection::SocketBufferSize, SystemSocketBufferSize - 102400, 2097152
+09-13 16:16:34.493  3928  4717 W System.err: remove failed: ENOENT (No such file or directory) : /data/system/recent_tasks/18904_task.xml.bak
+09-13 16:16:34.903 16242 16350 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:16:34.903 16242 16350 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:16:35.023 16353 16353 W System  : ClassLoader referenced unknown path: /system/app/WeatherDaemon2014_T_MMR/lib/arm
+09-13 16:16:35.428 16242 16350 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:16:35.428 16242 16350 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:16:36.138 15192 15403 W System.err: java.io.FileNotFoundException: /proc/sys/net/mptcp/mptcp_enabled: open failed: ENOENT (No such file or directory)
+09-13 16:16:36.143 15192 15403 W System.err: 	at libcore.io.IoBridge.open(IoBridge.java:452)
+09-13 16:16:36.143 15192 15403 W System.err: 	at java.io.FileInputStream.<init>(FileInputStream.java:76)
+09-13 16:16:36.143 15192 15403 W System.err: 	at java.io.FileReader.<init>(FileReader.java:42)
+09-13 16:16:36.143 15192 15403 W System.err: 	at android.net.TrafficStats.getMptcpState(TrafficStats.java:613)
+09-13 16:16:36.143 15192 15403 W System.err: 	at android.net.TrafficStats.getTotalRxBytes(TrafficStats.java:644)
+09-13 16:16:36.143 15192 15403 W System.err: 	at X.0uo.r$0(:146420)
+09-13 16:16:36.143 15192 15403 W System.err: 	at X.0uo.b(:146381)
+09-13 16:16:36.143 15192 15403 W System.err: 	at X.0uo.a(:146370)
+09-13 16:16:36.143 15192 15403 W System.err: 	at X.1Bp.run(:214630)
+09-13 16:16:36.143 15192 15403 W System.err: 	at X.0MG.run(:52177)
+09-13 16:16:36.143 15192 15403 W System.err: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:423)
+09-13 16:16:36.143 15192 15403 W System.err: 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+09-13 16:16:36.143 15192 15403 W System.err: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:423)
+09-13 16:16:36.143 15192 15403 W System.err: 	at X.0NP.run(:54643)
+09-13 16:16:36.143 15192 15403 W System.err: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:423)
+09-13 16:16:36.143 15192 15403 W System.err: 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+09-13 16:16:36.143 15192 15403 W System.err: 	at X.0Jx.run(:47459)
+09-13 16:16:36.143 15192 15403 W System.err: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+09-13 16:16:36.143 15192 15403 W System.err: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+09-13 16:16:36.143 15192 15403 W System.err: 	at X.0Na.run(:54935)
+09-13 16:16:36.143 15192 15403 W System.err: 	at java.lang.Thread.run(Thread.java:818)
+09-13 16:16:36.143 15192 15403 W System.err: Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+09-13 16:16:36.143 15192 15403 W System.err: 	at libcore.io.Posix.open(Native Method)
+09-13 16:16:36.143 15192 15403 W System.err: 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:186)
+09-13 16:16:36.143 15192 15403 W System.err: 	at libcore.io.IoBridge.open(IoBridge.java:438)
+09-13 16:16:36.143 15192 15403 W System.err: 	... 20 more
+09-13 16:16:36.418 15192 16404 W System.err: remove failed: ENOTEMPTY (Directory not empty) : /data/user/0/com.facebook.katana/app_analytics/high/com.facebook.katana/100000735806234
+09-13 16:16:36.418 15192 16404 W System.err: remove failed: ENOTEMPTY (Directory not empty) : /data/user/0/com.facebook.katana/app_analytics/high/com.facebook.katana
+09-13 16:16:36.463 16435 16435 W System.err: remove failed: ENOENT (No such file or directory) : /data/user/0/com.facebook.katana/app_libs
+09-13 16:16:36.703 16242 16350 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:16:36.703 16242 16350 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:16:36.728 15192 16468 W System.err: remove failed: ENOENT (No such file or directory) : /data/user/0/com.facebook.katana/files/video-cache/tFA6au3pFi-1q-PaSQcudX7te0A
+09-13 16:16:37.053 16242 16350 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:16:37.053 16242 16350 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:16:37.058 16242 16350 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:16:37.058 16242 16350 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:16:37.063 15192 16472 W System.err: remove failed: ENOENT (No such file or directory) : /data/user/0/com.facebook.katana/files/video-cache/9LW9KYBWRb8cOGIOHAvk67Q8Mtk
+09-13 16:16:37.428  3928  5357 D SensorService: SensorEventConnection::SocketBufferSize, SystemSocketBufferSize - 102400, 2097152
+09-13 16:16:37.618  3928  8626 W System.err: java.io.FileNotFoundException: /proc/sys/net/mptcp/mptcp_enabled: open failed: ENOENT (No such file or directory)
+09-13 16:16:37.618  3928  8626 W System.err: 	at libcore.io.IoBridge.open(IoBridge.java:452)
+09-13 16:16:37.618  3928  8626 W System.err: 	at java.io.FileInputStream.<init>(FileInputStream.java:76)
+09-13 16:16:37.618  3928  8626 W System.err: 	at java.io.FileReader.<init>(FileReader.java:42)
+09-13 16:16:37.618  3928  8626 W System.err: 	at android.net.TrafficStats.getMptcpState(TrafficStats.java:613)
+09-13 16:16:37.618  3928  8626 W System.err: 	at android.net.TrafficStats.getTotalRxBytes(TrafficStats.java:644)
+09-13 16:16:37.618  3928  8626 W System.err: 	at i.q.l(Unknown Source)
+09-13 16:16:37.618  3928  8626 W System.err: 	at i.q.a(Unknown Source)
+09-13 16:16:37.618  3928  8626 W System.err: 	at i.q.bq(Unknown Source)
+09-13 16:16:37.618  3928  8626 W System.err: 	at i.n.bi(Unknown Source)
+09-13 16:16:37.618  3928  8626 W System.err: 	at i.n.bk(Unknown Source)
+09-13 16:16:37.618  3928  8626 W System.err: 	at com.android.server.ssrm.S.a(Unknown Source)
+09-13 16:16:37.618  3928  8626 W System.err: 	at com.android.server.ssrm.T.handleMessage(Unknown Source)
+09-13 16:16:37.618  3928  8626 W System.err: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+09-13 16:16:37.618  3928  8626 W System.err: 	at android.os.Looper.loop(Looper.java:158)
+09-13 16:16:37.618  3928  8626 W System.err: 	at android.os.HandlerThread.run(HandlerThread.java:61)
+09-13 16:16:37.618  3928  8626 W System.err: Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+09-13 16:16:37.618  3928  8626 W System.err: 	at libcore.io.Posix.open(Native Method)
+09-13 16:16:37.618  3928  8626 W System.err: 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:186)
+09-13 16:16:37.618  3928  8626 W System.err: 	at libcore.io.IoBridge.open(IoBridge.java:438)
+09-13 16:16:37.618  3928  8626 W System.err: 	... 14 more
+09-13 16:16:38.198  3928  8626 W System.err: java.io.FileNotFoundException: /proc/sys/net/mptcp/mptcp_enabled: open failed: ENOENT (No such file or directory)
+09-13 16:16:38.203  3928  8626 W System.err: 	at libcore.io.IoBridge.open(IoBridge.java:452)
+09-13 16:16:38.203  3928  8626 W System.err: 	at java.io.FileInputStream.<init>(FileInputStream.java:76)
+09-13 16:16:38.203  3928  8626 W System.err: 	at java.io.FileReader.<init>(FileReader.java:42)
+09-13 16:16:38.203  3928  8626 W System.err: 	at android.net.TrafficStats.getMptcpState(TrafficStats.java:613)
+09-13 16:16:38.203  3928  8626 W System.err: 	at android.net.TrafficStats.getTotalRxBytes(TrafficStats.java:644)
+09-13 16:16:38.203  3928  8626 W System.err: 	at i.q.l(Unknown Source)
+09-13 16:16:38.203  3928  8626 W System.err: 	at i.q.a(Unknown Source)
+09-13 16:16:38.203  3928  8626 W System.err: 	at i.q.aw(Unknown Source)
+09-13 16:16:38.203  3928  8626 W System.err: 	at i.n.a(Unknown Source)
+09-13 16:16:38.203  3928  8626 W System.err: 	at com.android.server.ssrm.S.dA(Unknown Source)
+09-13 16:16:38.203  3928  8626 W System.err: 	at com.android.server.ssrm.S.a(Unknown Source)
+09-13 16:16:38.203  3928  8626 W System.err: 	at com.android.server.ssrm.ag.run(Unknown Source)
+09-13 16:16:38.203  3928  8626 W System.err: 	at android.os.Handler.handleCallback(Handler.java:739)
+09-13 16:16:38.203  3928  8626 W System.err: 	at android.os.Handler.dispatchMessage(Handler.java:95)
+09-13 16:16:38.203  3928  8626 W System.err: 	at android.os.Looper.loop(Looper.java:158)
+09-13 16:16:38.203  3928  8626 W System.err: 	at android.os.HandlerThread.run(HandlerThread.java:61)
+09-13 16:16:38.203  3928  8626 W System.err: Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+09-13 16:16:38.203  3928  8626 W System.err: 	at libcore.io.Posix.open(Native Method)
+09-13 16:16:38.203  3928  8626 W System.err: 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:186)
+09-13 16:16:38.203  3928  8626 W System.err: 	at libcore.io.IoBridge.open(IoBridge.java:438)
+09-13 16:16:38.203  3928  8626 W System.err: 	... 15 more
+09-13 16:16:40.623 26871 26871 D SMUSIC-SV: mSystemReceiver - batteryLevel: 62 batteryStatus: 2
+09-13 16:16:40.938  3928  5394 D SensorService: SensorEventConnection::SocketBufferSize, SystemSocketBufferSize - 102400, 2097152
+09-13 16:16:45.508 15192 15403 W System.err: remove failed: ENOENT (No such file or directory) : /data/data/com.facebook.katana/files/feedback
+09-13 16:16:46.523  3928  4477 W System.err: remove failed: ENOENT (No such file or directory) : /data/system/users/0/package-restrictions.xml.bak
+09-13 16:16:50.763 26871 26871 D SMUSIC-SV: mSystemReceiver - batteryLevel: 62 batteryStatus: 2
+09-13 16:16:56.673 16498 16498 W Settings: Setting adb_enabled has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+09-13 16:16:59.893 16541 16541 W System  : ClassLoader referenced unknown path: /system/priv-app/LocationWidget_M/lib/arm
+09-13 16:17:00.133 16559 16559 W System  : ClassLoader referenced unknown path: /system/priv-app/intelligenceservice2/lib/arm
+09-13 16:17:00.863 26871 26871 D SMUSIC-SV: mSystemReceiver - batteryLevel: 62 batteryStatus: 2
+09-13 16:17:01.218 16577 16577 W System  : ClassLoader referenced unknown path: /system/priv-app/SecGallery2014L/lib/arm
+09-13 16:17:02.303 16608 16608 W System  : ClassLoader referenced unknown path: /system/app/AllshareFileShareServer/lib/arm
+09-13 16:17:02.318 16596 16596 W System  : ClassLoader referenced unknown path: /system/priv-app/FaceProvider/lib/arm
+09-13 16:17:02.753 16596 16596 D SystemBroadcastReceiver: [FACE] registerListener completed 
+09-13 16:17:02.833 16622 16622 W System  : ClassLoader referenced unknown path: /system/app/GearManagerStub/lib/arm
+09-13 16:17:03.093 16596 16596 D SystemBroadcastReceiver: [FACE] Received broadcast 
+09-13 16:17:03.093 16596 16596 I SystemBroadcastReceiver: [FACE] onReceive broadcastcompleted  
+09-13 16:17:03.093 16596 16643 I SystemBroadcastReceiver: [FACE] Calling notifyListeners. 
+09-13 16:17:03.093 16596 16643 D SystemBroadcastReceiver: [FACE] Event id =  EVENT_SIOP
+09-13 16:17:03.093 16596 16643 I SystemBroadcastReceiver: [FACE] No one is registered with Event Id EVENT_SIOP
+09-13 16:17:03.093 16596 16643 D SystemBroadcastReceiver: [FACE] getRegisteredListnersForIntent completed 
+09-13 16:17:04.518 16675 16692 W System.err: mkdir failed: EEXIST (File exists) : /data/user/0/com.google.android.apps.plus/files/tiktok
+09-13 16:17:04.598 16707 16707 W System  : ClassLoader referenced unknown path: /system/priv-app/GoogleServicesFramework/lib/arm
+09-13 16:17:04.993 16727 16727 W System  : ClassLoader referenced unknown path: /system/app/SamsungWidget_ActiveApplication/lib/arm
+09-13 16:17:10.998 26871 26871 D SMUSIC-SV: mSystemReceiver - batteryLevel: 62 batteryStatus: 2
+09-13 16:17:21.148 26871 26871 D SMUSIC-SV: mSystemReceiver - batteryLevel: 62 batteryStatus: 2
+09-13 16:17:31.283 26871 26871 D SMUSIC-SV: mSystemReceiver - batteryLevel: 62 batteryStatus: 2
+09-13 16:17:41.428 26871 26871 D SMUSIC-SV: mSystemReceiver - batteryLevel: 62 batteryStatus: 2
+09-13 16:17:44.528  3928  5357 D SensorService: SensorEventConnection::SocketBufferSize, SystemSocketBufferSize - 102400, 2097152
+09-13 16:17:45.648 13990 13990 I System.out: report : service_act=0
+09-13 16:17:45.653 13990 16811 I System.out: success : 1111
+09-13 16:17:45.653 13990 16811 I System.out: getHttpsServerUrl/HTTPS=https://helpbatteryov1.ksmobile.com/c/ @serverhttps
+09-13 16:17:45.653 13990 14322 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:45.653 13990 14322 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:51.553 26871 26871 D SMUSIC-SV: mSystemReceiver - batteryLevel: 62 batteryStatus: 2
+09-13 16:17:57.048 16242 16841 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:57.048 16242 16841 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:57.048 16242 16841 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:57.048 16242 16841 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:57.063 15192 16859 W System.err: remove failed: ENOENT (No such file or directory) : /data/user/0/com.facebook.katana/files/video-cache/tMo79eu_qff46BN0oQ-kZZy9diY
+09-13 16:17:57.103 15192 16402 W System.err: remove failed: ENOTEMPTY (Directory not empty) : /data/user/0/com.facebook.katana/app_analytics/high/com.facebook.katana/100000735806234
+09-13 16:17:57.103 15192 16402 W System.err: remove failed: ENOTEMPTY (Directory not empty) : /data/user/0/com.facebook.katana/app_analytics/high/com.facebook.katana
+09-13 16:17:57.308 16242 16841 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:57.308 16242 16841 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:57.308 16242 16841 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:57.308 16242 16841 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:57.318 15192 16870 W System.err: remove failed: ENOENT (No such file or directory) : /data/user/0/com.facebook.katana/files/video-cache/tMo79eu_qff46BN0oQ-kZZy9diY
+09-13 16:17:57.328 16242 16840 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:57.328 16242 16840 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:57.333 15192 16871 W System.err: remove failed: ENOENT (No such file or directory) : /data/user/0/com.facebook.katana/files/video-cache/LFF4dTn4bp2mMVA0utqE5TtTmdA
+09-13 16:17:57.403 16242 16841 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:57.403 16242 16841 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:57.408 16242 16841 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:57.408 16242 16841 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:57.413 15192 16872 W System.err: remove failed: ENOENT (No such file or directory) : /data/user/0/com.facebook.katana/files/video-cache/tMo79eu_qff46BN0oQ-kZZy9diY
+09-13 16:17:57.413 15192 16402 W System.err: remove failed: ENOTEMPTY (Directory not empty) : /data/user/0/com.facebook.katana/app_analytics/high/com.facebook.katana/100000735806234
+09-13 16:17:57.413 15192 16402 W System.err: remove failed: ENOTEMPTY (Directory not empty) : /data/user/0/com.facebook.katana/app_analytics/high/com.facebook.katana
+09-13 16:17:57.473 16242 16840 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:57.473 16242 16840 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:57.478 16242 16840 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:57.478 16242 16840 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:57.483 15192 16874 W System.err: remove failed: ENOENT (No such file or directory) : /data/user/0/com.facebook.katana/files/video-cache/LFF4dTn4bp2mMVA0utqE5TtTmdA
+09-13 16:17:57.528 16242 16841 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:57.528 16242 16841 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:57.528 16242 16841 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:57.528 16242 16841 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:57.533 15192 16875 W System.err: remove failed: ENOENT (No such file or directory) : /data/user/0/com.facebook.katana/files/video-cache/tMo79eu_qff46BN0oQ-kZZy9diY
+09-13 16:17:57.593 16242 16840 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:57.593 16242 16840 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:57.593 16242 16840 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:57.593 16242 16840 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:57.603 15192 16876 W System.err: remove failed: ENOENT (No such file or directory) : /data/user/0/com.facebook.katana/files/video-cache/LFF4dTn4bp2mMVA0utqE5TtTmdA
+09-13 16:17:57.623 16242 16841 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:57.623 16242 16841 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:57.623 16242 16841 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:57.623 16242 16841 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:57.628 15192 16878 W System.err: remove failed: ENOENT (No such file or directory) : /data/user/0/com.facebook.katana/files/video-cache/tMo79eu_qff46BN0oQ-kZZy9diY
+09-13 16:17:57.703 16242 16840 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:57.703 16242 16840 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:57.703 16242 16840 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:57.703 16242 16840 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:57.708 15192 16879 W System.err: remove failed: ENOENT (No such file or directory) : /data/user/0/com.facebook.katana/files/video-cache/LFF4dTn4bp2mMVA0utqE5TtTmdA
+09-13 16:17:57.723 16242 16841 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:57.723 16242 16841 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:57.723 16242 16841 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:57.723 16242 16841 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:57.723 15192 16880 W System.err: remove failed: ENOENT (No such file or directory) : /data/user/0/com.facebook.katana/files/video-cache/tMo79eu_qff46BN0oQ-kZZy9diY
+09-13 16:17:57.733 15192 16402 W System.err: remove failed: ENOTEMPTY (Directory not empty) : /data/user/0/com.facebook.katana/app_analytics/high/com.facebook.katana/100000735806234
+09-13 16:17:57.733 15192 16402 W System.err: remove failed: ENOTEMPTY (Directory not empty) : /data/user/0/com.facebook.katana/app_analytics/high/com.facebook.katana
+09-13 16:17:57.828 16242 16840 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:57.828 16242 16840 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:57.828 16242 16840 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:57.828 16242 16840 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:57.833 15192 16881 W System.err: remove failed: ENOENT (No such file or directory) : /data/user/0/com.facebook.katana/files/video-cache/LFF4dTn4bp2mMVA0utqE5TtTmdA
+09-13 16:17:57.833 16242 16841 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:57.833 16242 16841 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:57.833 16242 16841 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:57.833 16242 16841 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:57.838 15192 16882 W System.err: remove failed: ENOENT (No such file or directory) : /data/user/0/com.facebook.katana/files/video-cache/tMo79eu_qff46BN0oQ-kZZy9diY
+09-13 16:17:57.933 16242 16840 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:57.933 16242 16840 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:57.938 16242 16840 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:57.938 16242 16840 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:57.938 16242 16841 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:57.938 16242 16841 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:57.938 16242 16841 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:57.938 16242 16841 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:57.938 15192 16883 W System.err: remove failed: ENOENT (No such file or directory) : /data/user/0/com.facebook.katana/files/video-cache/LFF4dTn4bp2mMVA0utqE5TtTmdA
+09-13 16:17:57.943 15192 16884 W System.err: remove failed: ENOENT (No such file or directory) : /data/user/0/com.facebook.katana/files/video-cache/tMo79eu_qff46BN0oQ-kZZy9diY
+09-13 16:17:58.043 16242 16840 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:58.043 16242 16840 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:58.043 16242 16840 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:58.043 16242 16840 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:58.043 15192 16884 W System.err: remove failed: ENOENT (No such file or directory) : /data/user/0/com.facebook.katana/files/video-cache/LFF4dTn4bp2mMVA0utqE5TtTmdA
+09-13 16:17:58.048 16242 16841 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:58.048 16242 16841 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:58.048 16242 16841 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:58.048 16242 16841 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:58.053 15192 16883 W System.err: remove failed: ENOENT (No such file or directory) : /data/user/0/com.facebook.katana/files/video-cache/tMo79eu_qff46BN0oQ-kZZy9diY
+09-13 16:17:58.138 16242 16840 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:58.138 16242 16840 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:58.138 16242 16840 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:58.138 16242 16840 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:58.143 15192 16883 W System.err: remove failed: ENOENT (No such file or directory) : /data/user/0/com.facebook.katana/files/video-cache/LFF4dTn4bp2mMVA0utqE5TtTmdA
+09-13 16:17:58.143 16242 16841 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:58.143 16242 16841 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:58.143 16242 16841 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:58.143 16242 16841 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:58.148 15192 16884 W System.err: remove failed: ENOENT (No such file or directory) : /data/user/0/com.facebook.katana/files/video-cache/tMo79eu_qff46BN0oQ-kZZy9diY
+09-13 16:17:58.248 16242 16840 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:58.248 16242 16840 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:58.248 16242 16841 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:58.248 16242 16841 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:58.248 16242 16840 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:58.253 16242 16840 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:58.253 16242 16841 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:58.253 16242 16841 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:58.253 15192 16884 W System.err: remove failed: ENOENT (No such file or directory) : /data/user/0/com.facebook.katana/files/video-cache/LFF4dTn4bp2mMVA0utqE5TtTmdA
+09-13 16:17:58.253 15192 16883 W System.err: remove failed: ENOENT (No such file or directory) : /data/user/0/com.facebook.katana/files/video-cache/tMo79eu_qff46BN0oQ-kZZy9diY
+09-13 16:17:58.358 16242 16840 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:58.358 16242 16840 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:58.358 16242 16840 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:58.358 16242 16840 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:58.363 16242 16841 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:58.363 16242 16841 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:58.363 16242 16841 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:58.363 16242 16841 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:58.363 15192 16884 W System.err: remove failed: ENOENT (No such file or directory) : /data/user/0/com.facebook.katana/files/video-cache/LFF4dTn4bp2mMVA0utqE5TtTmdA
+09-13 16:17:58.363 15192 16883 W System.err: remove failed: ENOENT (No such file or directory) : /data/user/0/com.facebook.katana/files/video-cache/tMo79eu_qff46BN0oQ-kZZy9diY
+09-13 16:17:58.553 16242 16840 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:58.553 16242 16840 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:58.553 16242 16840 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:58.553 16242 16840 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:58.558 16242 16841 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:58.558 16242 16841 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:58.558 15192 16884 W System.err: remove failed: ENOENT (No such file or directory) : /data/user/0/com.facebook.katana/files/video-cache/LFF4dTn4bp2mMVA0utqE5TtTmdA
+09-13 16:17:58.558 16242 16841 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:58.558 16242 16841 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:58.563 15192 16883 W System.err: remove failed: ENOENT (No such file or directory) : /data/user/0/com.facebook.katana/files/video-cache/tMo79eu_qff46BN0oQ-kZZy9diY
+09-13 16:17:58.673 16242 16840 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:58.673 16242 16840 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:58.673 16242 16840 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:58.673 16242 16840 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:58.678 15192 16883 W System.err: remove failed: ENOENT (No such file or directory) : /data/user/0/com.facebook.katana/files/video-cache/LFF4dTn4bp2mMVA0utqE5TtTmdA
+09-13 16:17:58.683 16242 16841 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:58.683 16242 16841 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:58.683 16242 16841 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:58.683 16242 16841 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:58.688 15192 16884 W System.err: remove failed: ENOENT (No such file or directory) : /data/user/0/com.facebook.katana/files/video-cache/tMo79eu_qff46BN0oQ-kZZy9diY
+09-13 16:17:58.793 16242 16840 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:58.793 16242 16840 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:58.793 16242 16840 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:58.793 16242 16840 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:58.793 16242 16841 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:58.793 16242 16841 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:58.798 16242 16841 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:58.798 16242 16841 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:17:58.798 15192 16884 W System.err: remove failed: ENOENT (No such file or directory) : /data/user/0/com.facebook.katana/files/video-cache/LFF4dTn4bp2mMVA0utqE5TtTmdA
+09-13 16:17:58.803 15192 16883 W System.err: remove failed: ENOENT (No such file or directory) : /data/user/0/com.facebook.katana/files/video-cache/tMo79eu_qff46BN0oQ-kZZy9diY
+09-13 16:18:00.993 15192 16402 W System.err: remove failed: ENOTEMPTY (Directory not empty) : /data/user/0/com.facebook.katana/app_analytics/high/com.facebook.katana/100000735806234
+09-13 16:18:00.993 15192 16402 W System.err: remove failed: ENOTEMPTY (Directory not empty) : /data/user/0/com.facebook.katana/app_analytics/high/com.facebook.katana
+09-13 16:18:01.653 26871 26871 D SMUSIC-SV: mSystemReceiver - batteryLevel: 62 batteryStatus: 2
+09-13 16:18:11.743 26871 26871 D SMUSIC-SV: mSystemReceiver - batteryLevel: 62 batteryStatus: 2
+09-13 16:18:17.638 16242 16350 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:18:17.638 16242 16350 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:18:17.638 16242 16350 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:18:17.638 16242 16350 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:18:17.743 16242 16350 D X.7Fg   : Cache data source open spec(HTTP). Offset: 0, Length 160778 Open Length 160778 Videoid 692450574258611 Key 692450574258611.null.346968885759779vd.-1.21354614_346968889093112_8350864437288108032_n.mp4
+09-13 16:18:17.868 16242 16350 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:18:17.868 16242 16350 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:18:17.868 16242 16350 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:18:17.868 16242 16350 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:18:17.953 16242 16350 D X.7Fg   : Cache data source open spec(HTTP). Offset: 0, Length 25452 Open Length 25452 Videoid 692450574258611 Key 692450574258611.null.199736733897617ad.-1.21384818_199736740564283_8567123011373629440_n.mp4
+09-13 16:18:20.823 16242 16940 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:18:20.823 16242 16940 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:18:20.828 16242 16940 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:18:20.828 16242 16940 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:18:20.863 16242 16939 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:18:20.863 16242 16939 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:18:20.863 16242 16939 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:18:20.863 16242 16939 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:18:20.938 16242 16940 D X.7Fg   : Cache data source open spec(HTTP). Offset: 25452, Length 11463 Open Length 11463 Videoid 692450574258611 Key 692450574258611.null.199736733897617ad.-1.21384818_199736740564283_8567123011373629440_n.mp4
+09-13 16:18:20.963 16242 16940 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:18:20.963 16242 16940 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:18:20.968 16242 16940 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:18:20.968 16242 16940 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:18:20.998 16242 16939 D X.7Fg   : Cache data source open spec(HTTP). Offset: 160778, Length 12088 Open Length 12088 Videoid 692450574258611 Key 692450574258611.null.346968885759779vd.-1.21354614_346968889093112_8350864437288108032_n.mp4
+09-13 16:18:21.048 16242 16939 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:18:21.048 16242 16939 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:18:21.058 16242 16939 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:18:21.058 16242 16939 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:18:21.083 16242 16940 D X.7Fg   : Cache data source open spec(HTTP). Offset: 36915, Length 12184 Open Length 12184 Videoid 692450574258611 Key 692450574258611.null.199736733897617ad.-1.21384818_199736740564283_8567123011373629440_n.mp4
+09-13 16:18:21.118 16242 16940 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:18:21.118 16242 16940 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:18:21.118 16242 16940 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:18:21.118 16242 16940 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:18:21.143 16242 16939 D X.7Fg   : Cache data source open spec(HTTP). Offset: 172866, Length 68374 Open Length 68374 Videoid 692450574258611 Key 692450574258611.null.346968885759779vd.-1.21354614_346968889093112_8350864437288108032_n.mp4
+09-13 16:18:21.238 16242 16940 D X.7Fg   : Cache data source open spec(HTTP). Offset: 49099, Length 11913 Open Length 11913 Videoid 692450574258611 Key 692450574258611.null.199736733897617ad.-1.21384818_199736740564283_8567123011373629440_n.mp4
+09-13 16:18:21.483 16242 16350 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:18:21.483 16242 16350 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:18:21.483 16242 16350 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:18:21.483 16242 16350 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:18:21.553 16242 16350 D X.7Fg   : Cache data source open spec(HTTP). Offset: 0, Length 96425 Open Length 96425 Videoid 1567268446650019 Key 1567268446650019.null.1215036441933982vd.-1.21774039_1215036448600648_4587142350504984576_n.mp4
+09-13 16:18:21.648 16242 16350 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:18:21.648 16242 16350 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:18:21.648 16242 16350 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:18:21.648 16242 16350 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:18:21.723 16242 16350 D X.7Fg   : Cache data source open spec(HTTP). Offset: 0, Length 25857 Open Length 25857 Videoid 1567268446650019 Key 1567268446650019.null.116110842404392ad.-1.21737386_116110845737725_8468083814306938880_n.mp4
+09-13 16:18:21.763 16242 16350 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:18:21.763 16242 16350 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:18:21.768 16242 16350 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:18:21.768 16242 16350 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:18:21.853 16242 16350 D X.7Fg   : Cache data source open spec(HTTP). Offset: 0, Length 26905 Open Length 26905 Videoid 1567245196652344 Key 1567245196652344.null.182398942304825ad.-1.21772739_182398945638158_1896587000190861312_n.mp4
+09-13 16:18:21.863 16242 16350 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:18:21.863 16242 16350 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:18:21.863 16242 16350 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:18:21.863 16242 16350 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-13 16:18:21.953 16242 16350 D X.7Fg   : Cache data source open spec(HTTP). Offset: 0, Length 74790 Open Length 74790 Videoid 1567245196652344 Key 1567245196652344.null.1221137671352598vd.-1.21735019_1221137674685931_5738415764491206656_n.mp4
