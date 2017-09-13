@@ -251,4 +251,4 @@ if __name__ == '__main__':
 
 ### 실행
 
-~[](/data/logcat_gui.gif)
+![](/data/logcat_gui.gif)
